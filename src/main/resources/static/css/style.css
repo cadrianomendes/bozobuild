@@ -1,0 +1,61 @@
+[container] {
+  width: 95%;
+}
+@media (min-width: 48em) {
+  [container] {
+    width: 1000px;
+  }
+}
+
+.siteHeader {
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 22px;
+}
+
+.nav {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.nav li {
+  display: inline;
+  line-height: 2.5;
+  margin-left: 25px;
+}
+.nav li:first-of-type {
+  margin-left: 0;
+}
+
+.feature {  
+  background-image: url('../img/poro.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+}
+@media (min-width: 48em) {
+  .feature {
+    padding-top: 200px;
+    padding-bottom: 200px;
+	padding-left: 350px;
+  }
+}
+
+.feature-title {
+  margin-top: 0;
+}
+
+.siteContent {
+  padding: 50px 0;
+}
+
+.siteFooter {
+  border-top: 1px solid #eee;
+  font-size: .875em;
+  padding-top: 15px;
+}
